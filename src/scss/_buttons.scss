@@ -1,0 +1,17 @@
+@import "variables";
+
+.btn {
+  &-unique {
+    @include button-variant($primary, $danger);
+    font-family: fantasy;
+
+    @include transition($btn-transition-fancy);
+
+    &:hover {
+      transform: scale(2) skew(25deg);
+    }
+  }
+  &-lazy {
+    @extend .btn-success;
+  }
+}
