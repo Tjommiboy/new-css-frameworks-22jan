@@ -33,3 +33,19 @@ $card-border-color: red;
 .img-thumbnail {
   width: 32%;
 }
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 907px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+.btn-secondary {
+  background-color: lightblue;
+}
+.btn-primary {
+  background-color: rgb(11, 63, 80);
+  border: rgb(11, 63, 80);
+}
