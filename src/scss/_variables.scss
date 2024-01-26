@@ -46,6 +46,7 @@ $yellow: #ffc107;
 $green: #198754;
 $teal: #20c997;
 $cyan: #0dcaf0;
+$hotpink: hotpink;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -306,6 +307,7 @@ $warning: $yellow;
 $danger: $red;
 $light: $gray-100;
 $dark: $gray-900;
+$hot: $hotpink;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -318,6 +320,7 @@ $theme-colors: (
   "danger": $danger,
   "light": $light,
   "dark": $dark,
+  "hot": $hot,
 );
 // scss-docs-end theme-colors-map
 
@@ -484,7 +487,7 @@ $grid-breakpoints: (
   xs: 0,
   sm: 576px,
   md: 768px,
-  lg: 992px,
+  lg: 907px,
   xl: 1200px,
   xxl: 1400px,
 );

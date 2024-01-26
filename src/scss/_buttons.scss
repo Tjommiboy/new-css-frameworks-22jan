@@ -13,5 +13,14 @@
   }
   &-lazy {
     @extend .btn-success;
+
+    &:hover {
+      transform: scale(2) skew(25deg);
+    }
+    &-hot {
+      @extend .btn-success;
+
+      transform: scale(2) skew(25deg);
+    }
   }
 }

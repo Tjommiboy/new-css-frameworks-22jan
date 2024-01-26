@@ -13,3 +13,23 @@
 
 // custom components
 @import "buttons";
+
+.frontpagepic {
+  background-image: url(../../pictures/DSC_0989.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.profilbg-pic {
+  background-image: url(../../pictures/DSC_0089.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+$card-border-color: red;
+
+.img-thumbnail {
+  width: 32%;
+}
