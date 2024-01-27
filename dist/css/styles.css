@@ -12000,4 +12000,13 @@ textarea.form-control-lg {
   width: 32%;
 }
 
+.btn-secondary {
+  background-color: lightblue;
+}
+
+.btn-primary {
+  background-color: rgb(11, 63, 80);
+  border: rgb(11, 63, 80);
+}
+
 /*# sourceMappingURL=styles.css.map */
